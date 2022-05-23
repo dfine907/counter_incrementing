@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Caesar+Dressing&family=Roboto+Mono&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(90deg, rgb(33, 21, 196) 0%, rgb(110, 21, 205) 35%, rgb(10, 149, 177) 100%);
+    color: white;
+    font-family: 'Roboto Mono', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+}
+
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 30px 50px;
+}
+
+.counter {
+    font-size: 65px;
+    margin-top: 10px;
+}
+
+@media(max-width: 580px) {
+    body{
+        flex-direction: column;
+        color: black
+    }
+}
