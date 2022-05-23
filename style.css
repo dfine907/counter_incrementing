@@ -5,7 +5,7 @@
 }
 
 body {
-    background: linear-gradient(90deg, rgb(33, 21, 196) 0%, rgb(110, 21, 205) 35%, rgb(10, 149, 177) 100%);
+    background: linear-gradient(90deg, rgb(12, 4, 121) 0%, rgb(89, 9, 175) 35%, rgb(38, 168, 215) 100%);
     color: white;
     font-family: 'Roboto Mono', sans-serif;
     display: flex;
